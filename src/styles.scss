@@ -1,0 +1,26 @@
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+  background: rgb(167, 145, 145);
+  height: 50px;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 5px 15px;
+  color: black;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a.active-link {
+  font-weight: bold;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
